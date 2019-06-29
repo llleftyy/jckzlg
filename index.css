@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: WhiteSmoke;
+}
+
+body {
+  background-color: white;
+  font-family: monospace;
+  font-size: 14px;
+  margin: auto;
+  max-width: 50em;
+  padding: 0 4em 4em 4em;
+}
+
+article {
+  margin-bottom: 4em;
+}
+
+header {
+  margin-bottom: 2em;
+}
+.title {
+  margin-bottom: 0;
+}
+
+.posted-date {
+  color: Gray;
+}
+
+blockquote {
+  text-align: left;
+  font-size: 1.25em;
+  color: Gray;
+}
+
+nav {
+  padding: 3em 0 2em 0;
+}
+
+nav a {
+  float: right;
+  margin-left: 2em;
+}
