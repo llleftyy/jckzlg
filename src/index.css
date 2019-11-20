@@ -17,10 +17,9 @@ html {
 
 body {
   background-color: white;
-  font-family: monospace;
-  font-size: 14px;
+  font-size: 16px;
   margin: auto;
-  max-width: 50em;
+  max-width: 35em;
   padding: 0 4em 4em 4em;
 }
 
@@ -46,6 +45,11 @@ nav a {
 
 article {
   margin-bottom: 4em;
+}
+
+.reflection p {
+  text-indent: 2em;
+  text-align: justify;
 }
 
 header {
