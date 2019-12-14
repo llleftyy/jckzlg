@@ -6,7 +6,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -16,16 +18,19 @@ body {
   font-family: Avenir;
   margin: auto;
   max-width: 40em;
-  padding: 2em 4em 4em 4em;
+  padding: 2em 0 2em 0;
 }
 
 /*******************************************************************************
  * HEADER STYLES
  ******************************************************************************/
 
+nav {
+  text-align: right;
+  margin-top: 2em;
+}
 nav a {
-  float: right;
-  margin-left: 2em;
+  margin: 0.75em;
 }
 
 /*******************************************************************************
@@ -40,7 +45,7 @@ article {
   text-align: justify;
 }
 
-header {
+article header {
   margin-bottom: 2em;
 }
 
@@ -52,8 +57,19 @@ header {
   color: blue;
 }
 
-blockquote {
-  font-size: 1.1em;
-  color: Gray;
+article ul {
+  padding: 0em 2em 0em 2em;
+  text-align: justify;
+}
+article li {
+  margin: 0.5em;
 }
 
+/*******************************************************************************
+ * SHELF STYLES
+ ******************************************************************************/
+
+.book {
+  list-style-type: none;
+  line-height: 1;
+}
