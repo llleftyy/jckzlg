@@ -11,29 +11,17 @@ h6 {
   padding: 0;
 }
 
-html {
-  background-color: WhiteSmoke;
-}
-
 body {
-  background-color: white;
   font-size: 14px;
-  font-family: Verdana, Arial;
+  font-family: Avenir;
   margin: auto;
-  max-width: 35em;
-  padding: 0 4em 4em 4em;
+  max-width: 40em;
+  padding: 2em 4em 4em 4em;
 }
 
 /*******************************************************************************
  * HEADER STYLES
  ******************************************************************************/
-
-.main-header {
-  width: auto;
-  margin: auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
 
 nav a {
   float: right;
@@ -49,7 +37,6 @@ article {
 }
 
 .reflection p {
-  text-indent: 2em;
   text-align: justify;
 }
 
@@ -62,12 +49,11 @@ header {
 }
 
 .posted-date {
-  color: Gray;
+  color: blue;
 }
 
 blockquote {
-  text-align: left;
-  font-size: 1.25em;
+  font-size: 1.1em;
   color: Gray;
 }
 
