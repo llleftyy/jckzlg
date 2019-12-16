@@ -6,7 +6,7 @@
       "type": "poem",
       "title": "a gentle night"
     },
-    "template_path": "templates/article.html",
+    "template_path": "article.html.template",
     "content_path": "articles/a-gentle-might.md",
     "include_path": "articles/a-gentle-night.include"
   },
@@ -17,7 +17,7 @@
       "type": "poem",
       "title": "a small struggle"
     },
-    "template_path": "templates/article.html",
+    "template_path": "article.html.template",
     "content_path": "articles/a-small-struggle.md",
     "include_path": "articles/a-small-struggle.include"
   },
@@ -28,7 +28,7 @@
       "type": "reflection",
       "title": "ego killin'"
     },
-    "template_path": "templates/article.html",
+    "template_path": "article.html.template",
     "content_path": "articles/ego-killin.md",
     "include_path": "articles/ego-killin.include"
   },
@@ -39,7 +39,7 @@
       "type": "poem",
       "title": "cigarettes"
     },
-    "template_path": "templates/article.html",
+    "template_path": "article.html.template",
     "content_path": "articles/cigarettes.md",
     "include_path": "articles/cigarettes.include"
   },
@@ -50,7 +50,7 @@
       "type": "poem",
       "title": "clear"
     },
-    "template_path": "templates/article.html",
+    "template_path": "article.html.template",
     "content_path": "articles/clear.md",
     "include_path": "articles/clear.include"
   },
@@ -61,7 +61,7 @@
       "type": "reflection",
       "title": "dismissal appeal"
     },
-    "template_path": "templates/article.html",
+    "template_path": "article.html.template",
     "content_path": "articles/dismissal-appeal.md",
     "include_path": "articles/dismissal-appeal.include"
   },
@@ -72,7 +72,7 @@
       "type": "reflection",
       "title": "body (re)boot camp 2019"
     },
-    "template_path": "templates/article.html",
+    "template_path": "article.html.template",
     "content_path": "articles/body-reboot-2019.md",
     "include_path": "articles/body-reboot-2019.include"
   }
