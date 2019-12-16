@@ -56,7 +56,7 @@ const main = async () => {
   });
 
   writefile(INDEX_HTML, template);
-  copyfile("moustache.png", "public/moustache.png", err => console.error(err));
+  copyfile("moustache.png", "public/moustache.png");
   copyfile("index.css", "public/index.css");
   copyfile("shelf.html", "public/shelf.html");
 };
