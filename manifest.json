@@ -1,0 +1,79 @@
+[
+  {
+    "params": {
+      "post_date": "2019-12-15",
+      "display_date": "December 12, 2019",
+      "type": "poem",
+      "title": "a gentle night"
+    },
+    "template_path": "templates/article.html",
+    "content_path": "articles/a-gentle-might.md",
+    "include_path": "articles/a-gentle-night.include"
+  },
+  {
+    "params": {
+      "post_date": "2019-07-10",
+      "display_date": "July 10, 2019",
+      "type": "poem",
+      "title": "a small struggle"
+    },
+    "template_path": "templates/article.html",
+    "content_path": "articles/a-small-struggle.md",
+    "include_path": "articles/a-small-struggle.include"
+  },
+  {
+    "params": {
+      "post_date": "2019-12-13",
+      "display_date": "December 13, 2019",
+      "type": "reflection",
+      "title": "ego killin'"
+    },
+    "template_path": "templates/article.html",
+    "content_path": "articles/ego-killin.md",
+    "include_path": "articles/ego-killin.include"
+  },
+  {
+    "params": {
+      "post_date": "2019-06-27",
+      "display_date": "June 27, 2019",
+      "type": "poem",
+      "title": "cigarettes"
+    },
+    "template_path": "templates/article.html",
+    "content_path": "articles/cigarettes.md",
+    "include_path": "articles/cigarettes.include"
+  },
+  {
+    "params": {
+      "post_date": "2019-06-28",
+      "display_date": "June 28, 2019",
+      "type": "poem",
+      "title": "clear"
+    },
+    "template_path": "templates/article.html",
+    "content_path": "articles/clear.md",
+    "include_path": "articles/clear.include"
+  },
+  {
+    "params": {
+      "post_date": "2019-07-10",
+      "display_date": "July 10, 2019",
+      "type": "reflection",
+      "title": "dismissal appeal"
+    },
+    "template_path": "templates/article.html",
+    "content_path": "articles/dismissal-appeal.md",
+    "include_path": "articles/dismissal-appeal.include"
+  },
+  {
+    "params": {
+      "post_date": "2019-11-20",
+      "display_date": "November 20, 2019",
+      "type": "reflection",
+      "title": "body (re)boot camp 2019"
+    },
+    "template_path": "templates/article.html",
+    "content_path": "articles/body-reboot-2019.md",
+    "include_path": "articles/body-reboot-2019.include"
+  }
+]
