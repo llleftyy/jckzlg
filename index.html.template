@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="icon" href="moustache.png" type="image/x-icon"/>
+   <link rel="stylesheet" content-type="text/css" href="index.css" />
+   <title>jckzlg</title>
+</head>
+<body id="top">
+  <a href="/"><img id="top-icon" src="moustache.png" /></a>
+
+  {{include:articles/a-gentle-night.include}}
+  {{include:articles/ego-killin.include}}
+  {{include:articles/body-reboot-2019.include}}
+  {{include:articles/a-small-struggle.include}}
+  {{include:articles/dismissal-appeal.include}}
+  {{include:articles/clear.include}}
+  {{include:articles/cigarettes.include}}
+
+  <nav>
+    <a href="#top">home</a>
+    <a href="/about">about</a>
+    <a href="/shelf.html">shelf</a>
+    <a href="/rss">rss</a>
+  </nav>
+</body>
+
+</html> 
