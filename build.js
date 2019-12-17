@@ -34,7 +34,7 @@ const getCompiledIncludes = async () => {
     const { params, content_path, template_path, include_path } = MANIFEST[i];
     const { title, type, post_date, display_date } = params;
     let template = String(await readfile(template_path));
-    Object.entries(params).forEach(([key, value]) => {
+    Object.entries({ content_path, ...params }).forEach(([key, value]) => {
       const search = new RegExp(`{{${key}}}`, "g");
       template = template.replace(search, value);
     });
@@ -45,18 +45,27 @@ const getCompiledIncludes = async () => {
   return includes;
 }
 
+const buildTemplate = (template, includes) => {
+  let built = template;
+  Object.entries(includes).forEach(([includePath, include]) => {
+    built = built.replace(`{{include:${includePath}}}`, include);
+  });
+
+  return built;
+}
+
 const main = async () => {
   const includes = await getCompiledIncludes();
 
 
-  let template = String(await readfile(INDEX_TEMPLATE));
+  const index = String(await readfile(INDEX_TEMPLATE));
+  const indexHTML = buildTemplate(index, includes);
 
-  Object.entries(includes).forEach(([includePath, include]) => {
-    template = template.replace(`{{include:${includePath}}}`, include);
-  });
-
-  writefile(INDEX_HTML, template);
+  writefile(INDEX_HTML, indexHTML);
   copyfile("moustache.png", "public/moustache.png");
+  copyfile("tophat.png", "public/tophat.png");
+  copyfile("smiley.png", "public/smiley.png");
+  copyfile("glasses.png", "public/glasses.png");
   copyfile("index.css", "public/index.css");
   copyfile("shelf.html", "public/shelf.html");
 };

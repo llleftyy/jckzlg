@@ -1,4 +1,5 @@
-<article id="{{title}}" class="{{type}}">
+<article id="{{content_path}}" class="{{type}}">
+  <a href="/"><img id="top-icon" src="{{image}}.png" class="{{image}}" /></a>
   <header>
     <h1 class="title">
       {{title}}
