@@ -4,7 +4,8 @@
       "post_date": "2019-12-15",
       "display_date": "December 12, 2019",
       "type": "poem",
-      "title": "a gentle night"
+      "title": "a gentle night",
+      "image": "moustache"
     },
     "template_path": "article.html.template",
     "content_path": "articles/a-gentle-might.md",
@@ -15,7 +16,8 @@
       "post_date": "2019-07-10",
       "display_date": "July 10, 2019",
       "type": "poem",
-      "title": "a small struggle"
+      "title": "a small struggle",
+      "image": "moustache"
     },
     "template_path": "article.html.template",
     "content_path": "articles/a-small-struggle.md",
@@ -26,7 +28,8 @@
       "post_date": "2019-12-13",
       "display_date": "December 13, 2019",
       "type": "reflection",
-      "title": "ego killin'"
+      "title": "ego killin'",
+      "image": "smiley"
     },
     "template_path": "article.html.template",
     "content_path": "articles/ego-killin.md",
@@ -37,7 +40,8 @@
       "post_date": "2019-06-27",
       "display_date": "June 27, 2019",
       "type": "poem",
-      "title": "cigarettes"
+      "title": "cigarettes",
+      "image": "moustache"
     },
     "template_path": "article.html.template",
     "content_path": "articles/cigarettes.md",
@@ -48,7 +52,8 @@
       "post_date": "2019-06-28",
       "display_date": "June 28, 2019",
       "type": "poem",
-      "title": "clear"
+      "title": "clear",
+      "image": "moustache"
     },
     "template_path": "article.html.template",
     "content_path": "articles/clear.md",
@@ -59,7 +64,8 @@
       "post_date": "2019-07-10",
       "display_date": "July 10, 2019",
       "type": "reflection",
-      "title": "dismissal appeal"
+      "title": "dismissal appeal",
+      "image": "moustache"
     },
     "template_path": "article.html.template",
     "content_path": "articles/dismissal-appeal.md",
@@ -67,10 +73,23 @@
   },
   {
     "params": {
+      "post_date": "2019-12-17",
+      "display_date": "December 17, 2019",
+      "type": "note",
+      "title": "Making Sense Podcast Notes",
+      "image": "glasses"
+    },
+    "template_path": "article.html.template",
+    "content_path": "articles/making-sense-notes.md",
+    "include_path": "notes/making-sense-2019-12-17.include"
+  },
+  {
+    "params": {
       "post_date": "2019-11-20",
       "display_date": "November 20, 2019",
       "type": "reflection",
-      "title": "body (re)boot camp 2019"
+      "title": "body (re)boot camp 2019",
+      "image": "smiley"
     },
     "template_path": "article.html.template",
     "content_path": "articles/body-reboot-2019.md",
