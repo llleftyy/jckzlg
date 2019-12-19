@@ -2,6 +2,7 @@
 <html>
 <head>
    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
    <link rel="icon" href="smiley.png" type="image/x-icon"/>
    <link rel="stylesheet" content-type="text/css" href="index.css" />
    <title>jckzlg</title>
