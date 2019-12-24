@@ -9,6 +9,7 @@
 </head>
 <body id="top">
 
+  {{include:notes/energy-gang-notes.include}}
   {{include:notes/making-sense-2019-12-17.include}}
   {{include:articles/a-gentle-night.include}}
   {{include:articles/ego-killin.include}}

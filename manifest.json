@@ -1,6 +1,18 @@
 [
   {
     "params": {
+      "post_date": "2019-12-24",
+      "display_date": "December 24, 2019",
+      "type": "note",
+      "title": "The Energy Gang Podcast Notes",
+      "image": "glasses"
+    },
+    "template_path": "article.html.template",
+    "content_path": "articles/energy-gang-notes.md",
+    "include_path": "notes/energy-gang-notes.include"
+  },
+  {
+    "params": {
       "post_date": "2019-12-15",
       "display_date": "December 12, 2019",
       "type": "poem",
