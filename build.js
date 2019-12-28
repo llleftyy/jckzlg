@@ -57,7 +57,6 @@ const buildTemplate = (template, includes) => {
 const main = async () => {
   const includes = await getCompiledIncludes();
 
-
   const index = String(await readfile(INDEX_TEMPLATE));
   const indexHTML = buildTemplate(index, includes);
 
@@ -67,7 +66,6 @@ const main = async () => {
   copyfile("smiley.png", "public/smiley.png");
   copyfile("glasses.png", "public/glasses.png");
   copyfile("index.css", "public/index.css");
-  copyfile("shelf.html", "public/shelf.html");
 };
 
 main();
