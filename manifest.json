@@ -1,10 +1,22 @@
 [
   {
     "params": {
+      "post_date": "2019-12-27",
+      "display_date": "December 27, 2019",
+      "type": "note",
+      "title": "bookshelf",
+      "image": "moustache"
+    },
+    "template_path": "article.html.template",
+    "content_path": "articles/bookshelf.md",
+    "include_path": "notes/bookshelf.include"
+  },
+  {
+    "params": {
       "post_date": "2019-12-24",
       "display_date": "December 24, 2019",
       "type": "note",
-      "title": "The Energy Gang Podcast Notes",
+      "title": "the energy gang podcast notes",
       "image": "glasses"
     },
     "template_path": "article.html.template",
@@ -88,7 +100,7 @@
       "post_date": "2019-12-17",
       "display_date": "December 17, 2019",
       "type": "note",
-      "title": "Making Sense Podcast Notes",
+      "title": "making sense podcast notes",
       "image": "glasses"
     },
     "template_path": "article.html.template",

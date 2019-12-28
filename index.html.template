@@ -8,23 +8,26 @@
    <title>jckzlg</title>
 </head>
 <body id="top">
-
-  {{include:notes/energy-gang-notes.include}}
-  {{include:notes/making-sense-2019-12-17.include}}
-  {{include:articles/a-gentle-night.include}}
-  {{include:articles/ego-killin.include}}
-  {{include:articles/body-reboot-2019.include}}
-  {{include:articles/a-small-struggle.include}}
-  {{include:articles/dismissal-appeal.include}}
-  {{include:articles/clear.include}}
-  {{include:articles/cigarettes.include}}
-
+  <!--
   <nav>
     <a href="#top">home</a>
     <a href="/about">about</a>
     <a href="/shelf.html">shelf</a>
     <a href="/rss">rss</a>
   </nav>
+  -->
+
+  {{include:notes/bookshelf.include}}
+  {{include:notes/energy-gang-notes.include}}
+  {{include:notes/making-sense-2019-12-17.include}}
+  {{include:articles/ego-killin.include}}
+  {{include:articles/a-gentle-night.include}}
+  {{include:articles/body-reboot-2019.include}}
+  {{include:articles/a-small-struggle.include}}
+  {{include:articles/dismissal-appeal.include}}
+  {{include:articles/clear.include}}
+  {{include:articles/cigarettes.include}}
+
 </body>
 
 </html> 
