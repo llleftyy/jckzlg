@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /*******************************************************************************
  * GENERAL STYLES
@@ -26,14 +28,16 @@ body {
     width: 100%;
   }
 }
-
 /*******************************************************************************
  * FONTS
  ******************************************************************************/
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 
 body {
-  font-family: 'Avenir', 'Nunito Sans', sans-serif;
+  font-family: 'Avenir', 'Open Sans', 'sans-serif';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Avenir', 'Roboto', 'sans-serif';
 }
 
 /*******************************************************************************
