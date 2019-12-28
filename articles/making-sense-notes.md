@@ -1,4 +1,4 @@
-#### interview with Judson Brewer
+#### episode: interview with Judson Brewer
 Sam interviewed Judson Brewer, a neuroscientist psychiatrist who runs a treatment
 and research center focused on addiction. His work focuses mostly on the 
 psychological, behavioral aspects of addiction and how mindfulness practice can
