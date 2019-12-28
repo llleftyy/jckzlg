@@ -1,13 +1,12 @@
 <article id="{{content_path}}" class="{{type}}">
-  <a href="/"><img id="top-icon" src="{{image}}.png" class="{{image}}" /></a>
   <header>
-    <h1 class="title">
+    <h3 class="title">
       {{title}}
-    </h1>
+    </h3>
 
-    <h4 class="posted-date">
+    <h5 class="posted-date">
        <time datetime="{{posted_date}}">{{display_date}}</time>
-    </h4>
+    </h5>
   </header>
 
   {{content}}
