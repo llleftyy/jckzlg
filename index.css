@@ -74,33 +74,20 @@ article.reflection p, article.note p {
 }
 
 article header {
-  height: 3em;
   font-variant: small-caps;
   color: maroon;
   line-height: 24px;
+  margin-bottom: 1em;
 }
 
-article .title {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-article .posted-date {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-article ul {
-  padding: 0em 2em 0em 2em;
-  text-align: justify;
-}
-article li {
+article.reflection li, article.note li {
+  list-style-position: inside;
   margin: 0.5em;
+  text-align: justify;
 }
 
 article h4 {
+  font-variant: small-caps;
   margin-bottom: 0.5em;
 }
 
@@ -113,12 +100,7 @@ article p {
  * SHELF STYLES
  ******************************************************************************/
 
-.bookshelf ul {
-  padding: 0;
-}
 .bookshelf li {
   list-style-type: none;
-  line-height: 1;
-  margin-left: 0;
 }
 
