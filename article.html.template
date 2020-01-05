@@ -1,12 +1,12 @@
 <article id="{{content_path}}" class="{{type}}">
   <header>
+    <h5 class="posted-date">
+       <time datetime="{{posted_date}}">{{display_date}}</time>
+    </h5>
     <h2 class="title">
       {{title}}
     </h2>
 
-    <h3 class="posted-date">
-       <time datetime="{{posted_date}}">{{display_date}}</time>
-    </h3>
   </header>
 
   {{content}}
