@@ -3,7 +3,7 @@
     "params": {
       "post_date": "2019-12-27",
       "display_date": "December 27, 2019",
-      "type": "note",
+      "type": "shelf",
       "title": "bookshelf",
       "image": "moustache"
     },
@@ -112,7 +112,7 @@
       "post_date": "2019-11-20",
       "display_date": "November 20, 2019",
       "type": "reflection",
-      "title": "body (re)boot camp 2019",
+      "title": "body reboot camp",
       "image": "smiley"
     },
     "template_path": "article.html.template",
