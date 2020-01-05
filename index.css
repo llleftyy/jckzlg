@@ -20,7 +20,6 @@ body {
   font-size: 14px;
   margin: auto;
   max-width: 35em;
-  padding: 2em 2em 2em 2em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -41,32 +40,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*******************************************************************************
- * NAV STYLES
- ******************************************************************************/
-#top-icon {
-  width: 8%;
-  float: right;
-  margin-left: 2em;
-}
-#top-icon.moustache {
-  width: 10%;
-}
-
-nav {
-  text-align: right;
-  margin-top: 2em;
-}
-nav a {
-  margin: 0.75em;
-}
-
-/*******************************************************************************
  * POST STYLES
  ******************************************************************************/
 
 article {
-  margin-bottom: 2.5em;
-  position: relative;
+  margin-bottom: 1em;
+  padding: 1em;
 }
 
 article.reflection p, article.note p {
@@ -76,7 +55,6 @@ article.reflection p, article.note p {
 article header {
   font-variant: small-caps;
   color: maroon;
-  line-height: 24px;
   margin-bottom: 1em;
 }
 
