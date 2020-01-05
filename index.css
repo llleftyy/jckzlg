@@ -54,8 +54,12 @@ article.reflection p, article.note p {
 
 article header {
   font-variant: small-caps;
-  color: maroon;
+  color: red;
   margin-bottom: 1em;
+}
+
+.posted-date {
+  color: gray;
 }
 
 article.reflection li, article.note li {
