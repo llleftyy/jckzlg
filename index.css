@@ -18,8 +18,16 @@ li {
 
 body {
   font-size: 14px;
-  margin: auto;
   max-width: 35em;
+  margin: auto;
+  color: rgb(68, 68, 68);
+  font-size: 19px;
+}
+
+a {
+  color: red;
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 @media only screen and (max-width: 600px) {
@@ -48,10 +56,6 @@ article {
   padding: 1em;
 }
 
-article.reflection p, article.note p {
-  text-align: justify;
-}
-
 article header {
   font-variant: small-caps;
   color: red;
@@ -62,10 +66,8 @@ article header {
   color: gray;
 }
 
-article.reflection li, article.note li {
-  list-style-position: inside;
-  text-align: justify;
-  margin: 0;
+article.reflection ul, article.note ul {
+  margin: 1.5em;
 }
 
 article h4 {
@@ -87,3 +89,43 @@ article p {
   margin-bottom: 0.25em;
 }
 
+/*******************************************************************************
+ * NAV STYLES
+ ******************************************************************************/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  display: block;
+  background-size: 48px;
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 48px;
+  float: left;
+}
+
+#twitter, #email, #rss {
+  display: block;
+  background-size: 32px;
+  height: 32px;
+  width: 32px;
+  float: right;
+  filter: invert(50%);
+  margin-top: -4px;
+}
+
+#about {
+  background-image: url("/moustache.png");
+}
+#twitter {
+  background-image: url("/twitter.png");
+}
+#email {
+  background-image: url("/email.png");
+}
+#rss {
+  background-image: url("/rss.png");
+}

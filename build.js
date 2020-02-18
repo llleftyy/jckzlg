@@ -65,6 +65,9 @@ const main = async () => {
   copyfile("tophat.png", "public/tophat.png");
   copyfile("smiley.png", "public/smiley.png");
   copyfile("glasses.png", "public/glasses.png");
+  copyfile("email.png", "public/email.png");
+  copyfile("twitter.png", "public/twitter.png");
+  copyfile("rss.png", "public/rss.png");
   copyfile("index.css", "public/index.css");
 };
 

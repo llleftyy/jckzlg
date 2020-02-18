@@ -1,4 +1,9 @@
 <article id="{{content_path}}" class="{{type}}">
+  <nav>
+    <a href="/" id="rss"></a>
+    <a href="/" id="email"></a>
+    <a href="/" id="twitter"></a>
+  </nav>
   <header>
     <h5 class="posted-date">
        <time datetime="{{posted_date}}">{{display_date}}</time>
