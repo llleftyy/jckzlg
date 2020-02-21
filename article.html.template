@@ -1,18 +1,17 @@
 <article id="{{content_path}}" class="{{type}}">
-  <nav>
-    <a href="/" id="rss"></a>
-    <a href="/" id="email"></a>
-    <a href="/" id="twitter"></a>
-  </nav>
   <header>
-    <h5 class="posted-date">
-       <time datetime="{{posted_date}}">{{display_date}}</time>
-    </h5>
     <h2 class="title">
       {{title}}
     </h2>
-
+    <nav>
+      <a href="/" class="rss"></a>
+      <a href="/" class="email"></a>
+      <a href="/" class="twitter"></a>
+      <a href="/" class="github"></a>
+    </nav>
   </header>
 
-  {{content}}
+  <div class="content">
+    {{content}}
+  </div>
 </article>

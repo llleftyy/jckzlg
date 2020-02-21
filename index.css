@@ -4,37 +4,25 @@
 /*******************************************************************************
  * GENERAL STYLES
  ******************************************************************************/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li {
+h1, h2, h3, h4, h5, h6, ul, li {
   margin: 0;
   padding: 0;
 }
 
 body {
   font-size: 14px;
-  max-width: 35em;
-  margin: auto;
   color: rgb(68, 68, 68);
   font-size: 16px;
-}
-
-a {
-  color: red;
-  font-weight: bold;
-  font-variant: small-caps;
+  max-width: 35em;
+  margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
+  .centered {
     width: 100%;
   }
 }
+
 /*******************************************************************************
  * FONTS
  ******************************************************************************/
@@ -53,17 +41,25 @@ h1, h2, h3, h4, h5, h6 {
 
 article {
   margin-bottom: 1em;
-  padding: 1em;
 }
 
 article header {
   font-variant: small-caps;
-  color: red;
-  margin-bottom: 1em;
+  height: 40px;
+  line-height: 40px;
+  background-color: Maroon;
+  color: white;
+  padding-left: 1em;
+  padding-right: 0.25em;
+  border-radius: 3px;
 }
 
-.posted-date {
-  color: gray;
+article .title {
+  float: left;
+}
+
+article .content {
+  padding: 1em;
 }
 
 article.reflection ul, article.note ul {
@@ -80,52 +76,23 @@ article p {
   margin-bottom: 1em;
 }
 
-/*******************************************************************************
- * SHELF STYLES
- ******************************************************************************/
-
-.bookshelf li {
-  list-style-type: none;
-  margin-bottom: 0.25em;
-}
-
-/*******************************************************************************
- * NAV STYLES
- ******************************************************************************/
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#about {
-  display: block;
-  background-size: 48px;
-  background-repeat: no-repeat;
-  height: 48px;
-  width: 48px;
-  float: left;
-}
-
-#twitter, #email, #rss {
-  display: block;
+.github, .twitter, .email, .rss {
   background-size: 32px;
-  height: 32px;
+  height: 40px;
   width: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
   float: right;
-  filter: invert(50%);
-  margin-top: -4px;
 }
-
-#about {
-  background-image: url("/moustache.png");
+.github {
+  background-image: url("/github.png");
 }
-#twitter {
+.twitter {
   background-image: url("/twitter.png");
 }
-#email {
+.email {
   background-image: url("/email.png");
 }
-#rss {
+.rss {
   background-image: url("/rss.png");
 }
