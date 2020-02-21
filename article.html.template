@@ -7,7 +7,7 @@
       <a href="/" class="rss"></a>
       <a href="/" class="email"></a>
       <a href="/" class="twitter"></a>
-      <a href="/" class="github"></a>
+      <a href="https://github.com/llleftyy/jckzlg/commits/master/{{content_path}}" class="github"></a>
     </nav>
   </header>
 
